@@ -4,67 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker Application</title>
+    <meta name="description" content="Expense Tracker Application Interface">
 </head>
 <body>
+
     <header>
-        <h1>Welcome to Expense Tracker</h1>
+        <h1>Expense Tracker Application</h1>
     </header>
 
-    <section>
-        <h2>About</h2>
-        <p>This application helps you to gain control over your finances, improve budgeting and saving habits, and make more informed financial decisions in both personal and business contexts.</p>
-    </section>
+    <main>
+        <section>
+            <h2>Welcome to Expense Tracker</h2>
+            <img src="Expense Tracker.png" width="800" height="600" alt="Expense Tracker">
+            <p>Your number one companion when it comes to crucial monitoring and controlling of expenditures to help you stay within budget. </p>
 
-    <section>
-        <a href="https://google.com" target="_blank">Click here to visit Google</a>
-    </section>
+            <a href="https://google.com" target="_blank">Click here to visit Google</a>
+        </section>
 
-    <section>
-        <img src="C:\Users\chimo\OneDrive\Pictures\Sophie\Expense Tracker.png" alt="Expense Tracker" width="800" height="600">
-    </section>
+        <section>
+            <h2>User Registration</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                
+                <input type="submit" value="Register">
+            </form>
+        </section>
 
-    <section>
-        <h2>User Registration</h2>
-        <form action="URL" method="GET/POST">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+        <section>
+            <h2>User Information Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sophie Khatali</td>
+                        <td>omulimisophie@gmail.com</td>
+                        <td>+254759996556</td>
+                    </tr>
+                    <tr>
+                        <td>Linda Nifa</td>
+                        <td>omuliminifa@gmail.com</td>
+                        <td>+254726915152</td>
+                    </tr>
+                    <tr>
+                        <td>Norah Ayuma</td>
+                        <td>ayuma.norah1979@gmail.com</td>
+                        <td>+254700418137</td>
+                    </tr>
+            
+                </tbody>
+            </table>
+        </section>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone" required><br><br>
-
-            <input type="submit" value="Register">
-        </form>
-    </section>
-
-    <section>
-        <h2>User Information</h2>
-        <table border="1">
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Phone Number</th>
-            </tr>
-            <tr>
-                <td>Sophie Khatali</td>
-                <td>sophiekhatali@gmail.com</td>
-                <td>+254759996556</td>
-            </tr>
-            <tr>
-                <td>Linda Nifa</td>
-                <td>omuliminifa@gmail.com</td>
-                <td>+254726915152</td>
-            </tr>
-            <tr>
-                <td>Norah Ayuma</td>
-                <td>ayuma.norah1979@gmail.com</td>
-                <td>+254700418137</td>
-            </tr>
-        </table>
-    </section>
+    </main>
 
 </body>
 </html>
+
+
+
 
